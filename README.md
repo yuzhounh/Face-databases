@@ -2,7 +2,7 @@
 Benchmark face databases for face recognition and reconstruction. 
 
 # Face databases
-| Height | Width | Images per sub	| NO. of subjects |
+| Height | Width | NO. of images per subject	| NO. of subjects |
 |:------ |:------|:------|:------|
 | AR(I)	| 50	| 40	| 26	| 120 |
 | AR(II)	| 60	| 43	| 14	| 99 |
@@ -18,16 +18,20 @@ Benchmark face databases for face recognition and reconstruction.
 | YaleB	| 192	| 168	| 64	| 31 |
 
 # Other databases
-| Height | Width | Images per sub	| NO. of subjects |
+| Height | Width | NO. of images per subject	| NO. of subjects |
 |:------ |:------|:------|:------|
 | BDL	| 20	| 16	| 39	| 36 |
 | COIL20	| 32	| 32	| 72	| 20 |
 | MNIST	| 28	| 28	| 7000	| 10 |
 
-# Sample
+# Samples from the AR(I) face database
 AR(I) 50 $\times$ 40 $\times$ 26 $\times$ 120  
 ![figure 1](https://github.com/yuzhounh/Face_databases/blob/main/samples/AR_all.svg)  
 ![figure 2](https://github.com/yuzhounh/Face_databases/blob/main/samples/AR_first.svg)  
+
+# Usage
+1. Run **display_faces.m** to display the images.
+2. Run **resize_faces.m** to resize the images to width 32 while keeping the aspect ratios. 
 
 # References
 [1] Face recognition homepage https://www.face-rec.org/databases/.  
