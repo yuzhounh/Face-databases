@@ -19,7 +19,7 @@ Benchmark face databases for face recognition and reconstruction.
 
 # Other databases
 | Height | Width | Images per sub	| NO. of subjects |
-| ------------- |:-------------:| -----:|-----:|
+|:------ |:------|:------|:------|
 | BDL	| 20	| 16	| 39	| 36 |
 | COIL20	| 32	| 32	| 72	| 20 |
 | MNIST	| 28	| 28	| 7000	| 10 |
