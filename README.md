@@ -28,6 +28,10 @@ Benchmark face databases for face recognition and reconstruction.
 AR(I) 50 $\times$ 40 $\times$ 26 $\times$ 120  
 ![figure 1](samples/AR_all.png)  
 ![figure 2](samples/AR_first.png)  
+
+![figure 1](https://github.com/yuzhounh/Face_databases/blob/main/samples/AR_all.svg)  
+![figure 2](https://github.com/yuzhounh/Face_databases/blob/main/samples/AR_all.svg)  
+
 <img src="samples/AR_all.svg" width="600px"/>
 <img src="samples/AR_first.svg" width="600px"/>
 
