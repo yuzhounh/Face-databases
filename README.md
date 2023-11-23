@@ -37,3 +37,8 @@ AR(I) 50 $\times$ 40 $\times$ 26 $\times$ 120
 [1] Face recognition homepage https://www.face-rec.org/databases/.  
 [2] The Yale Face Database B http://cvc.cs.yale.edu/cvc/projects/yalefacesB/yalefacesB.html.  
 [3] MNIST database https://en.wikipedia.org/wiki/MNIST_database. 
+
+# Contact information:
+Jing Wang  
+yuzhounh@163.com  
+2023-11-23 10:19:28  
