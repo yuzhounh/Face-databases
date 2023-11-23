@@ -25,8 +25,10 @@ Benchmark face databases for face recognition and reconstruction.
 | MNIST	| 28	| 28	| 7000	| 10 |
 
 # Sample
-AR(I) $50 \times 40 \times 26 \times 120$
+AR(I) 50 $\times$ 40 $\times$ 26 $\times$ 120
 
+![](samples\AR_all.svg）
+![](samples\AR_first.svg）
 
 # References
 [1] Face recognition homepage https://www.face-rec.org/databases/.  
