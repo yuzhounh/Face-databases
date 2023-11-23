@@ -3,7 +3,7 @@ Benchmark face databases for face recognition and reconstruction.
 
 Database name
 | Height | Width | Images per sub	| NO. of subjects |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| -----:|-----:|
 | AR(I)	| 50	| 40	| 26	| 120 |
 | AR(II)	| 60	| 43	| 14	| 99 |
 | FEI	| 48	| 64	| 14	| 00 |
