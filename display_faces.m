@@ -4,7 +4,7 @@
 clear,clc,close all;
 
 % face databases
-sData={'AR_I','AR_II','FEI','FERET','GT','IMM','LFW','ORL','PIE','UMIST','Yale','YaleB'}';
+sData={'AR_I','AR_II','FEI','FERET','GT','IMM','LFW','ORL','PIE','UMIST','Yale'}';
 nData=length(sData);
 
 % number of subjects in each face database
