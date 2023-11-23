@@ -2,7 +2,7 @@
 Benchmark face databases for face recognition and reconstruction. 
 
 # Face databases
-| Database name | Height | Width | NO. of images per subject	| NO. of subjects |
+| Database | Height | Width | NO. of images per subject	| NO. of subjects |
 |:------ |:------|:------|:------|:------|
 | AR(I)	| 50	| 40	| 26	| 120 |
 | AR(II)	| 60	| 43	| 14	| 99 |
@@ -18,7 +18,7 @@ Benchmark face databases for face recognition and reconstruction.
 | YaleB	| 192	| 168	| 64	| 31 |
 
 # Other databases
-| Database name  | Height | Width | NO. of images per subject	| NO. of subjects |
+| Database  | Height | Width | NO. of images per subject	| NO. of subjects |
 |:------ |:------|:------|:------|:------|
 | BDL	| 20	| 16	| 39	| 36 |
 | COIL20	| 32	| 32	| 72	| 20 |
