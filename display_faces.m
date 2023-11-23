@@ -8,7 +8,7 @@ sData={'AR_I','AR_II','FEI','FERET','GT','IMM','LFW','ORL','PIE','UMIST','Yale'}
 nData=length(sData);
 
 % number of subjects in each face database
-sSub=[120,99,200,200,50,40,158,40,68,20,15,31]';
+sSub=[120,99,200,200,50,40,158,40,68,20,15]';
 
 % for each face database
 for iData=1:nData
