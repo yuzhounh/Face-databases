@@ -27,8 +27,8 @@ Benchmark face databases for face recognition and reconstruction.
 # Sample
 AR(I) 50 $\times$ 40 $\times$ 26 $\times$ 120
 
-![Figure 1](samples/AR_all.svg）
-![Figure 2](samples/AR_first.svg）
+![Figure 1](samples/AR_all.png）
+![Figure 2](samples/AR_first.png）
 
 # References
 [1] Face recognition homepage https://www.face-rec.org/databases/.  
