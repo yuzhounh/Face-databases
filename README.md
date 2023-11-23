@@ -24,6 +24,9 @@ Benchmark face databases for face recognition and reconstruction.
 | COIL20	| 32	| 32	| 72	| 20 |
 | MNIST	| 28	| 28	| 7000	| 10 |
 
+# Sample
+AR(I) 50*40*26*120
+
 
 # References
 [1] Face recognition homepage https://www.face-rec.org/databases/.  
