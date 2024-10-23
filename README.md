@@ -25,6 +25,8 @@ A comprehensive collection of benchmark face databases for face recognition and 
 | Yale | 100 | 100 | 11 | 15 |
 | YaleB | 192 | 168 | 64 | 31 |
 
+</div>
+
 ### Other Databases
 <div align="center">
   
