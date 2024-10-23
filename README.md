@@ -7,8 +7,8 @@ A comprehensive collection of benchmark face databases for face recognition and 
 
 ## Dataset Overview
 
-### Face Databases
 <div align="center">
+### Face Databases
 
 | Database | Height | Width | NO. of imgs per sub | NO. of subjects |
 |:--------:|:------:|:-----:|:------------------:|:---------------:|
@@ -46,11 +46,13 @@ Sample images from the AR(I) face database (50 × 40 × 26 × 120):
 ## Usage
 
 ```matlab
+% Run the following commands in Matlab
+
 % Display face images
-display_faces.m
+display_faces; 
 
 % Resize images to width 32 while preserving aspect ratio
-resize_faces.m
+resize_faces; 
 ```
 
 ## References
