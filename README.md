@@ -7,9 +7,9 @@ A comprehensive collection of benchmark face databases for face recognition and 
 
 ## Dataset Overview
 
-<div align="center">
 ### Face Databases
-
+<div align="center">
+  
 | Database | Height | Width | NO. of imgs per sub | NO. of subjects |
 |:--------:|:------:|:-----:|:------------------:|:---------------:|
 | AR(I) | 50 | 40 | 26 | 120 |
@@ -26,6 +26,8 @@ A comprehensive collection of benchmark face databases for face recognition and 
 | YaleB | 192 | 168 | 64 | 31 |
 
 ### Other Databases
+<div align="center">
+  
 | Database | Height | Width | NO. of imgs per sub | NO. of subjects |
 |:--------:|:------:|:-----:|:------------------:|:---------------:|
 | BDL | 20 | 16 | 39 | 36 |
