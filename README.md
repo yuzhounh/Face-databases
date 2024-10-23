@@ -1,9 +1,17 @@
-# Benchmark face databases
-Benchmark face databases for face recognition and reconstruction.
+# Face Databases Benchmark Dataset
 
-# Face databases
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+## Introduction
+A comprehensive collection of benchmark face databases for face recognition and reconstruction research. This repository contains standardized datasets from various popular face databases with different resolutions and subject counts.
+
+## Dataset Overview
+
+### Face Databases
+<div align="center">
+
 | Database | Height | Width | NO. of imgs per sub | NO. of subjects |
-|:---------|:--------|:--------|:------------------|:----------------|
+|:--------:|:------:|:-----:|:------------------:|:---------------:|
 | AR(I) | 50 | 40 | 26 | 120 |
 | AR(II) | 60 | 43 | 14 | 99 |
 | FEI | 48 | 64 | 14 | 100 |
@@ -17,30 +25,46 @@ Benchmark face databases for face recognition and reconstruction.
 | Yale | 100 | 100 | 11 | 15 |
 | YaleB | 192 | 168 | 64 | 31 |
 
-# Other databases
+### Other Databases
 | Database | Height | Width | NO. of imgs per sub | NO. of subjects |
-|:---------|:--------|:--------|:------------------|:----------------|
+|:--------:|:------:|:-----:|:------------------:|:---------------:|
 | BDL | 20 | 16 | 39 | 36 |
 | COIL20 | 32 | 32 | 72 | 20 |
 | MNIST | 28 | 28 | 7000 | 10 |
 
-# Samples from the AR(I) face database
-AR(I) 50 × 40 × 26 × 120
+</div>
 
-![figure 1](https://github.com/yuzhounh/Face_databases/blob/main/samples/AR_all.svg)
+## Sample Images
+Sample images from the AR(I) face database (50 × 40 × 26 × 120):
 
-<img src="https://github.com/yuzhounh/Face_databases/blob/main/samples/AR_first.svg" width="70%">
+<div align="center">
+<img src="https://github.com/yuzhounh/Face_databases/blob/main/samples/AR_all.svg" alt="AR Database Full Sample">
 
-# Usage
-1. Run **display_faces.m** to display the images.
-2. Run **resize_faces.m** to resize the images to width 32 while keeping the aspect ratios.
+<img src="https://github.com/yuzhounh/Face_databases/blob/main/samples/AR_first.svg" alt="AR Database Individual Sample" width="70%">
+</div>
 
-# References
-[1] Face recognition homepage https://www.face-rec.org/databases/  
-[2] The Yale Face Database B http://cvc.cs.yale.edu/cvc/projects/yalefacesB/yalefacesB.html  
-[3] MNIST database https://en.wikipedia.org/wiki/MNIST_database
+## Usage
 
-# Contact information
-Jing Wang  
-yuzhounh@163.com  
-2023-11-23 10:19:28
+```matlab
+% Display face images
+display_faces.m
+
+% Resize images to width 32 while preserving aspect ratio
+resize_faces.m
+```
+
+## References
+1. [Face Recognition Homepage](https://www.face-rec.org/databases/)
+2. [The Yale Face Database B](http://cvc.cs.yale.edu/cvc/projects/yalefacesB/yalefacesB.html)
+3. [MNIST Database](https://en.wikipedia.org/wiki/MNIST_database)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+- **Author:** Jing Wang
+- **Email:** yuzhounh@163.com
+- **Last Updated:** 2023-11-23
+
+## Acknowledgments
+We would like to thank the creators and maintainers of all the original face databases for making their datasets available for research purposes.
