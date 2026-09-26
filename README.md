@@ -42,12 +42,17 @@ A comprehensive collection of benchmark face databases for face recognition and 
 Sample images from the AR(I) face database (50 × 40 × 26 × 120):
 
 <div align="center">
-<img src="https://github.com/yuzhounh/Face_databases/blob/main/samples/AR_all.svg" alt="AR Database Full Sample">
+<img src="samples/AR_all.svg" alt="AR Database Full Sample">
 
-<img src="https://github.com/yuzhounh/Face_databases/blob/main/samples/AR_first.svg" alt="AR Database Individual Sample" width="70%">
+<img src="samples/AR_first.svg" alt="AR Database Individual Sample" width="70%">
 </div>
 
 ## Usage
+
+```bash
+git clone https://github.com/yuzhounh/Face-databases.git
+cd Face-databases
+```
 
 ```matlab
 % Run the following commands in Matlab
@@ -65,7 +70,7 @@ resize_faces;
 3. [MNIST Database](https://en.wikipedia.org/wiki/MNIST_database)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Repository-authored scripts and documentation are provided under the [MIT License](LICENSE). The bundled benchmark datasets originate from third parties; their original terms, citations, and usage restrictions continue to apply.
 
 ## Contact
 - **Author:** Jing Wang
